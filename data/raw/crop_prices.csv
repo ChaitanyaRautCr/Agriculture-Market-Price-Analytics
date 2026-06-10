@@ -1,0 +1,13 @@
+Date,State,Market,Crop,Variety,Min_Price,Max_Price,Modal_Price
+2026-06-01,Maharashtra,Pune,Onion,Red,1800,2200,2000
+2026-06-01,Maharashtra,Nashik,Onion,Red,1750,2150,1950
+2026-06-01,Maharashtra,Mumbai,Onion,Red,1900,2300,2100
+2026-06-01,Maharashtra,Pune,Tomato,Local,1200,1600,1400
+2026-06-01,Maharashtra,Nashik,Tomato,Local,1100,1500,1300
+2026-06-01,Maharashtra,Mumbai,Tomato,Local,1300,1700,1500
+2026-06-01,Maharashtra,Pune,Potato,Local,1400,1800,1600
+2026-06-01,Maharashtra,Nashik,Potato,Local,1350,1750,1550
+2026-06-01,Maharashtra,Mumbai,Potato,Local,1450,1850,1650
+2026-06-02,Maharashtra,Pune,Onion,Red,1820,2220,2020
+2026-06-02,Maharashtra,Nashik,Onion,Red,1770,2170,1970
+2026-06-02,Maharashtra,Mumbai,Onion,Red,1920,2320,2120
