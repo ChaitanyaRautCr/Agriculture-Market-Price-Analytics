@@ -1,17 +1,6 @@
 # Agriculture Market Price Analytics
 
-## Overview
-This project analyzes agricultural crop prices across different markets and provides insights through data analysis and dashboards.
-
-## Objectives
-- Collect crop price data
-- Build ETL pipelines using Python
-- Store data in PostgreSQL
-- Analyze market trends
-- Create Power BI dashboards
-- Forecast crop prices
-
-## Tech Stack
+## Technologies
 - Python
 - Pandas
 - PostgreSQL
@@ -19,5 +8,21 @@ This project analyzes agricultural crop prices across different markets and prov
 - Power BI
 - GitHub
 
-## Project Status
-🚧 In Development
+## Features
+- ETL Pipeline
+- Data Cleaning
+- PostgreSQL Data Warehouse
+- SQL Analysis
+- Interactive Power BI Dashboard
+
+## Dashboard Pages
+1. Executive Overview
+2. Crop Insights
+
+## Executive Overview Dashboard
+
+![Executive Overview](reports/screenshots/executive_overview.png)
+
+## Crop Insights Dashboard
+
+![Crop Insights](reports/screenshots/crop_insights.png)
