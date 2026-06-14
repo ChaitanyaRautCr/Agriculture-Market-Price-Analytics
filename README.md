@@ -19,10 +19,13 @@
 1. Executive Overview
 2. Crop Insights
 
+
+# Agriculture Market Price Analytics
+
 ## Executive Overview Dashboard
 
-![Executive Overview](reports/screenshots/executive_overview.png)
+![Executive Overview](executive_overview.png.png)
 
 ## Crop Insights Dashboard
 
-![Crop Insights](reports/screenshots/crop_insights.png)
+![Crop Insights](crop_insights.png.png)
