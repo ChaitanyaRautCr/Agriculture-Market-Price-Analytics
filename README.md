@@ -1,31 +1,61 @@
 # Agriculture Market Price Analytics
 
-## Technologies
-- Python
-- Pandas
-- PostgreSQL
-- SQL
-- Power BI
-- GitHub
+## Project Overview
+
+Agriculture Market Price Analytics is an end-to-end Data Engineering and Analytics project that processes agricultural crop price data using Python, PostgreSQL, SQL, and Power BI.
+
+## Technologies Used
+
+* Python
+* Pandas
+* PostgreSQL
+* SQLAlchemy
+* Power BI
+* Git & GitHub
 
 ## Features
-- ETL Pipeline
-- Data Cleaning
-- PostgreSQL Data Warehouse
-- SQL Analysis
-- Interactive Power BI Dashboard
+
+* ETL Pipeline (Extract, Transform, Load)
+* Data Cleaning and Transformation
+* PostgreSQL Database Integration
+* SQL Analysis Queries
+* Interactive Power BI Dashboards
+* Crop and Market Price Analytics
+
+## Architecture
+
+Raw CSV Data
+→ Extract (Python)
+→ Transform (Pandas)
+→ Load (PostgreSQL)
+→ SQL Analysis
+→ Power BI Dashboard
 
 ## Dashboard Pages
-1. Executive Overview
-2. Crop Insights
 
-
-# Agriculture Market Price Analytics
-
-## Executive Overview Dashboard
+### Executive Overview
 
 ![Executive Overview](executive_overview.png.png)
 
-## Crop Insights Dashboard
+### Crop Insights
 
 ![Crop Insights](crop_insights.png.png)
+
+## Setup
+
+### Configure PostgreSQL Password
+
+Windows PowerShell:
+
+```powershell
+$env:DB_PASSWORD="your_password"
+python etl/load.py
+```
+
+### Run ETL
+
+```bash
+python etl/extract.py
+python etl/transform.py
+python etl/load.py
+```
