@@ -1,11 +1,16 @@
+import os
 import pandas as pd
 from sqlalchemy import create_engine
 
-# Update password
-password = "YOUR_POSTGRES_PASSWORD"
+password = os.getenv("DB_PASSWORD")
+
+if not password:
+    raise ValueError(
+        "DB_PASSWORD environment variable is not set."
+    )
 
 engine = create_engine(
-    f"postgresql://postgres:system@localhost:5432/agriculture_market"
+    f"postgresql://postgres:{password}@localhost:5432/agriculture_market"
 )
 
 df = pd.read_csv("data/raw/crop_prices_large.csv")
